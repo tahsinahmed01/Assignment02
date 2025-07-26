@@ -168,6 +168,40 @@ nav ul li a {
       font-size: 3.125rem;
 }
 
+/* section-img-part */
+
+.text-color-1 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+.text-color-2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+.btn-1,.btn-2 {
+    color: #FFFFFF;
+}
+.img-plant {
+    display: flex;
+    gap: 40px;
+    padding: 120px 60px;
+    text-align: center;
+}
+.display-img-1 {
+    display: grid;
+    gap: 25px;
+}
+.background-img-1 {
+    background-image: url(../B12A02-Responsive-Flowers/assets/deal-bloom.png);
+}
+.background-img-2 {
+    background-image: url(../B12A02-Responsive-Flowers/assets/deal-ana.png);
+}
+.background-img-3 {
+    background-image: url(../B12A02-Responsive-Flowers/assets/deal-zabo.png);
+}
 @media screen and (max-width: 576px) {
 
     .home,
