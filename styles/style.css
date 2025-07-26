@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 .noto-serif-font {
     font-family: "Noto Serif", serif;
@@ -83,4 +84,127 @@ nav ul li a {
 }
 .banner-paragraph {
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* section-part */
+
+.plant-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 90px;
+    gap: 20px;
+}
+  
+.plant-info {
+    text-align: center;
+}
+.plant-description {
+    text-align: center;
+}
+.plant-info h4 {
+    font-weight: 600;
+    font-size: 1.37rem;
+    columns: #111111;
+}
+.plant-info h1 {
+    color: #111111;
+    font-size: 1.37rem;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    padding: 19px 80px;
+
+}
+
+/* IMG Part */
+
+.trusted-badge {
+    width: 286px;
+    height: 286px;
+    position: relative;
+    top: 160px;
+    right: -500px;
+}
+
+/* section-part -2 */
+
+.latest-info {
+    display: grid;
+    gap: 20px;
+    text-align: center;
+}
+
+.plant-lover {
+    display: flex;
+    gap: 90px;
+    padding: 0px 130px;
+    padding-bottom: 100px;
+}
+.lover-description {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lover-paragraph {
+    display: grid;
+    gap: 35px;
+}
+.lover-title {
+       font-weight: bold;
+       font-size: 3.125rem;
+}
+
+.latest-span {
+       color: #E95A08;
+
+}
+.latest-title {
+      font-weight: bold;
+      font-size: 3.125rem;
+}
+
+@media screen and (max-width: 576px) {
+
+    .home,
+    .shop,
+    .About {
+        display: none;
+
+    }
+
+.nav {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 146;
+        padding: 0px;
+        position: absolute;
+        width: 361px;
+        height: 38px;
+        left: 16px;
+        top: 67px;
+
+    }
+
+    .banner-img {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        padding: 10px 10px;
+    }
+    .plant-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+        gap: 20px;
+    }
+
 }
