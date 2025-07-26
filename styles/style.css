@@ -168,31 +168,39 @@ nav ul li a {
       font-size: 3.125rem;
 }
 
-/* section-img-part */
-
-.text-color-1 {
-    font-weight: bold;
-    font-size: 1.25rem;
-    color: #FFFFFF;
-}
+.text-color-1,
 .text-color-2 {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.btn-1,
+.btn-2 {
+    color: #FFFFFF;
     font-weight: bold;
-    font-size: 2.5rem;
-    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    margin-top: 10px;
 }
-.btn-1,.btn-2 {
-    color: #FFFFFF;
-}
+
 .img-plant {
     display: flex;
     gap: 40px;
-    padding: 120px 60px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+    
 }
+
 .display-img-1 {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 25px;
 }
+
 .background-img-1 {
     background-image: url(../B12A02-Responsive-Flowers/assets/deal-bloom.png);
 }
@@ -202,6 +210,36 @@ nav ul li a {
 .background-img-3 {
     background-image: url(../B12A02-Responsive-Flowers/assets/deal-zabo.png);
 }
+
+.background-img-1,
+.background-img-2 {
+    flex-direction: column;
+    align-items: center;
+    height: 206px;
+    width: 366px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+    filter: brightness(80%);
+}
+
+.background-img-3 {
+    border-radius: 22px;
+    width: 753px;
+    height: 423px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    flex-direction: column;
+}
+
+
+
 @media screen and (max-width: 576px) {
 
     .home,
